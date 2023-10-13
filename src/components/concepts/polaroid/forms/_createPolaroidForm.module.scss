@@ -1,0 +1,11 @@
+.createPolaroidForm {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  .polaroidWrapper {
+    img.polaroid {
+      max-width: 100%;
+    }
+  }
+}
